@@ -14,10 +14,11 @@ function setObjSize(){
         //gv("#closed-sign").css("height", winHeight+"px");
         }    
     
-//scripts to replace some stuff on the login page.
+//scripts to replace some stuff on the login page.    
+if(document.getElementById("ctl00_content_Login_txtLoginId") && document.getElementById("ctl00_content_Login_txtPassword")){
     
-if(document.getElementById("login-page")){
-    gv("#ENUSmain").addClass("login-page-container");
+    
+    
     console.log("This is the login page");
     gv("#welcome-text").css('display','none');
     var winHeight = gv(window).height();
@@ -85,54 +86,6 @@ if(document.getElementById("ctl00_content_SelfRegFlow_SelfRegInstr_SelfRegInstrL
 
 if(document.getElementById("ctl00_content_ForgotPassword_txtUserID")){
    gv("#welcome-text").css('display','none');
-   } 
-else if(document.getElementById("home-page")){
-    gv("#ENUSmain").addClass("home-page-container");
-}
-else if(document.getElementById("catalog-page")){
-    gv("#ENUSmain").addClass("catalog-page-container");
-}
-    else if(document.getElementById("cat-search-page")){
-        gv("#ENUSmain").addClass("cat-search-page-container");
-    }
-    else if(document.getElementById("shopping-cart-page")){
-        gv("#ENUSmain").addClass("shopping-cart-page-container");
-    }
-    else if(document.getElementById("save-cart-page")){
-        gv("#ENUSmain").addClass("save-cart-page-container");
-    }
-    else if(document.getElementById("shipping-page")){
-        gv("#ENUSmain").addClass("shipping-page-container");
-    }
-else if(document.getElementById("billing-page")){
-    gv("#ENUSmain").addClass("billing-page-container");
-}
-    else if(document.getElementById("billing-po-page")){
-        gv("#ENUSmain").addClass("billing-po-page-container");
-    }
-    else if(document.getElementById("billing-cc-page")){
-        gv("#ENUSmain").addClass("billing-cc-page-container");
-    }
-    else if(document.getElementById("confirm-order-page")){
-        gv("#ENUSmain").addClass("confirm-order-page-container");
-    }
-    else if(document.getElementById("order-sum-page")){
-        gv("#ENUSmain").addClass("order-sum-page-container");
-    }
-    else if(document.getElementById("order-mgr-page")){
-        gv("#ENUSmain").addClass("order-mgr-page-container");
-    }
-    else if(document.getElementById("reports-page")){
-        gv("#ENUSmain").addClass("reports-page-container");
-    }
-    else if(document.getElementById("self-reg-page")){
-        gv("#ENUSmain").addClass("self-reg-page-container");
-    }
-    else if(document.getElementById("err-page")){
-        gv("#ENUSmain").addClass("err-page-container");
-    }
-    else if(document.getElementById("profile-page")){
-        gv("#ENUSmain").addClass("profile-page-container");
-    }
-else{}
-
+   }    
+    
+});
