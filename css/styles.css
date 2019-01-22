@@ -1,0 +1,325 @@
+/*CSS Style Rules for GV Apparel Online Store*/
+
+/*Global Rules.*/
+
+#copyright, #ctl00_FooterLayout_ImageControl1, .FooterBottom center a img#ctl00_content_FooterLayout_ImageControl1{
+    display: none;
+}
+
+/*Rules for GV Apparel*/
+
+/*Login page rules*/
+
+/*Home Page Rules*/
+#ENUSmain.home-page-container{
+    
+}
+
+
+
+.header-banner-text{
+    margin-top: 25px;
+    /*text-align: center;*/
+    line-height:1em;
+    font-family: harringtonplain;
+    font-size: 3em;
+    color: #990017;
+    text-shadow: 2px 2px 1px rgb(124,135,142);
+}
+
+.header-banner-text a:hover{
+    text-decoration: none;
+}
+
+body#PageType01, body#PageType01-elastic{
+    background-image:url(https://mymulti-craft.com/gv-apparel/hg-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display:none;
+}
+
+#PageType01 #ENUSmain {
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    margin-bottom:50px;
+    border:none;
+    background-image:url(https://mymulti-craft.com/gv-apparel/gold-bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width:100%;
+    max-width:1200px;
+}
+
+
+
+
+
+table#CtlHead{
+    width:100%;
+    
+}
+
+#CtlLogIn{
+    width:80%;
+    border:none;
+    margin-top:0px;
+}
+
+#CtlLogOn h4, #CtlLogOn h3, #CtlLogOn h2, #CtlLogOn h1, #CtlLogOn p{
+    margin-top:0;
+}
+
+#CtlLogIn h4 span{
+    font-size: 3em;
+    font-family: 'harringtonplain';
+    color:#990017;
+}
+
+table.CtlSearchGroup{
+    border:none;
+    background-color:transparent;
+}
+
+.CtlSearchGroup .content input{
+    width:100%;
+    /*min-width:400px;*/
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 6px;
+    padding-left:8px;
+}
+
+#login-wrapper #CtlLogIn table.CtlSearchGroup{
+    border:none;
+    background-color:transparent;
+    margin: 15px auto 5px 100px !important;
+}
+
+#login-wrapper .CtlSearchGroup .content input{
+    width:75%;
+    /*min-width:400px;*/
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 6px;
+    padding-left:8px;
+}
+
+table#CtlFooter{
+    display: none;
+}
+
+div.gridItem.pti-cc-productGridItem{
+    border-top-left-radius: 25px;
+    border: none;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 3px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,.75);
+    padding-left: 15px;
+}
+
+td.gridItemImageCell{
+    border:none;
+}
+
+/*Home/Splash Page Styles*/
+
+td.MastHead a img{
+    margin: 0 auto;
+}
+
+table#CtlCart.ContentBoxLarge td img{
+    width:100%;
+}
+
+table#CtlCart{
+    width:78%;
+    margin:0 auto;
+}
+
+table#CtlCart .Reports{
+    background-color:#fff;
+}
+
+/*Catalog Page Styles*/
+
+.gridRow1Col,.gridRow2Cols,.gridRow3Cols,.gridRow4Cols{
+    width:875px !important;
+    float:none;
+    margin:0 auto;
+}
+
+.gridItem{
+    margin:0px 10px 0px 0px;
+}
+
+table#CtlBrdCrm span.name{
+    display: block;
+}
+
+table#CtlBrdCrm span.name div{
+    width: 875px;
+    margin: 0 auto;
+}
+
+#welcome-and-shop-now{
+    width:78%;
+    margin:0 auto;
+}
+#banner-msgs{
+    width:100%;
+    float:left;
+    text-align:left;
+}
+
+#welcome-text{
+    float:left;
+}
+
+.header-banner-text a{
+    color:#990017;
+}
+
+#site-title{
+    float:right;
+}
+
+#login-wrapper #site-title{
+    float:none;
+    text-align: center;
+}
+
+#shop-btn{
+    width:27%;
+    float:right;
+    padding-top:32px;
+    padding-right:26px;
+    
+}
+
+#shop-now-btn{
+    width:75%;
+    background-color:#a20352;
+    border-radius:10px;
+    font-size:26px;
+    padding:16px 32px 0;
+    text-align:center;
+    font-weight:bold;
+    
+}
+
+#shop-now-btn a{
+    color:#fff;
+    text-decoration: none;
+    padding:16px 32px;
+    font-family: harringtonplain, sans-serif;
+    line-height:32px;
+    text-shadow: 2px 2px 1px #333333;
+}
+
+tr#ctl00_content_CtlAddToCart_InteractivityContainer_ctl00_AttachedFilesLayout td.ContentBoxGrey, table.ContentBoxGrey#Table5{
+    /*Yeah, I'm going to make this box not grey*/
+    border:0;
+    background: transparent;
+}
+
+/* Styles created to customize the look of the login page.*/
+div#login-wrapper{
+    width:700px;
+    height:350px;
+    margin: 100px auto 50px;
+    border-radius:16px;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    background-image:url(https://mymulti-craft.com/gv-apparel/login-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255,255,255,1);
+}
+
+#login-wrapper .NavTop{
+    background:transparent;
+}
+
+a#ctl00_content_Login_btnLogin.pbtn.btn-s.primary, a#ctl00_content_Login_btnLogin.pbtn.btn-s.primary span{
+    background:none;
+    color:#fff;
+    font-size:30px !important;
+    
+}
+a#ctl00_content_Login_btnLogin.pbtn.btn-s.primary{
+    background-color: #990017;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-right: 105px;
+    font-family: harringtonplain, sans-serif;
+    margin-top: -12px;
+}
+
+a#ctl00_content_Login_btnLogin.pbtn.btn-s.primary img{
+    margin-top:-6px;
+}
+
+a#ctl00_content_Login_btnLogin.pbtn.btn-s.primary span{
+    padding:0;
+    font-family: harringtonplain, sans-serif;
+    line-height:1.2em;
+}
+
+#CtlLogIn h4, #CtlLogIn p {
+    margin-left: 120px;
+    /*margin-top:8px;*/
+    line-height:1.2em;
+}
+
+#CtlLogIn h4{
+   margin-bottom:20px; 
+}
+
+#CtlLogIn h4 span{
+    height:36px;
+    line-height: inherit;
+    text-shadow: 2px 2px 1px rgb(124,135,142);
+    font-weight:normal;
+}
+
+#CtlLogIn p a{
+    font-size:16px;
+    font-weight: bold;
+}
+
+#login-wrapper table.CtlSearchGroup{
+    width:400px;
+}
+
+#login-wrapper .CtlSearchGroup td.header {
+    border-right:none;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 0;
+}
+
+#login-wrapper div.ButtonRowClearR{
+    margin-top:-25px;
+}
+
+#ctl00_content_Login_Stringcontrol2, #ctl00_content_Login_Stringcontrol3{
+    visibility: hidden;
+}
+
+#CtlAddrEdit, #CtlCart{
+    background-color:#fff;
+}
+
+#login-wrapper #banner-msgs{
+    position:relative;
+    height: 62px;
+}
+
+#login-wrapper #banner-msgs #site-title{
+    position:absolute;
+    top:-11px;
+    left: 113px;
+}

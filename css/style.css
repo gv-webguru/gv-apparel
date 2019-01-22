@@ -1,0 +1,148 @@
+/*Style Sheets for Paycor on Marcom*/
+#ctl00_content_CtlPager_tblPager,
+#ctl00_content_CtlPagerBottom_tblPager,
+#ctl00_content_FeaturedProducts_containerToggleEnhancedView{
+    /*display:none;*/
+    visibility:hidden;
+}
+
+.SampleImage{
+    width:150px;
+}
+
+.new-prods{
+    width:100%;
+    height:200px;
+    overflow-x: auto;
+    overflow-y:hidden;
+    position:relative;
+}
+
+#prods-slider{
+    height: 200px;
+    position:absolute;
+    padding-left:50px;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+.indiv-prod{
+    float:left;
+    min-width: 150px;
+    height:150px;
+    margin:8px;
+    padding:8px;
+    border: 1px solid #bbb;
+    display:flex;
+    align-items: center;
+    /*border-radius: 16px;*/
+}
+
+.gridItem_title td {
+    text-align: center;
+}
+
+/*Make the gray Pager Bar in the catalog disappear*/
+
+table#ctl100_content_CtlPager_tblPage{
+    display: none;
+}
+
+/*############# Login Screen Styles ###################*/
+.global-container{
+        width:100%;
+        height:100%;
+        color:#fff;
+        background-color:#f47320;
+        font-size:16px;
+    }
+    #banner-row{
+        width:100%;
+        height:21.3%;
+        background-color: #fff;
+        display:flex;
+        align-items: center;
+    }
+    #logo-wrapper{
+        margin:0 auto 0;
+        width: 200px;
+        /*height:105px;*/
+    }
+    #logo-wrapper img{
+        /*margin-top:50%;*/
+        width:100%;
+    }
+    #login-row{
+        width:100%;
+        height: 78.7%;
+        /*margin-top:-40px;
+        padding-bottom:100px;*/
+    }
+    #form-container{
+        max-width: 612px;
+        margin:0 auto;
+        padding-top: 1px;
+    }
+    .welcome-message{
+        margin:64px 0 45px;
+        line-height:1em;
+        font-size: 4.25em;
+        font-family: jenna_sue_proregular;
+        text-align: center;
+    }
+    .input-wrapper{
+        width: 100%;
+        margin-top:30px;
+        margin-bottom:40px;
+    }
+    #form-container label{
+        font-family: Arial, sans-serif;
+        font-size: 1em;
+        text-transform: uppercase;
+        
+    }
+    #form-container input{
+        width:100%;
+        height:46px;
+        border:none;
+        background-color: #f8a674;
+        font-size:1.5em ;
+        padding-left: 8px;
+        color: #fff;
+    }
+    a.login-btn{
+        text-decoration: none;
+    }
+    a.login-btn p:hover{
+        background-color: #f8a674;
+    }
+    
+    .login-btn p{
+        width: 100%;
+        border:1px solid #fff;
+        color:#fff;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 8px 0;
+        
+    }
+    hr#link-divider{
+        border-color:#f8a674;
+        border-style: solid;
+        margin-top:32px;
+    }
+    a.lost-pswd{
+        text-decoration: none;
+        color:#fff;
+    }
+    a.lost-pswd p{
+        margin-top:32px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 1em;
+    }
